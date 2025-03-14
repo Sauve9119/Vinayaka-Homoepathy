@@ -202,6 +202,8 @@ header {
 .service__header__content p {
   max-width: 600px;
   color: var(--text-light);
+
+  font-size: 1.5rem;
 }
 
 .service__btn {
@@ -224,9 +226,14 @@ header {
 
 .service__grid {
   margin-top: 4rem;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .service__card {
